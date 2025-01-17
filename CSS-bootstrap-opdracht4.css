@@ -1,0 +1,188 @@
+#header{
+    background-image: url("https://images.pexels.com/photos/27143631/pexels-photo-27143631/free-photo-of-zee-zwart-en-wit-zwart-wit-landschap.jpeg");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 500px; 
+    max-width: 100%;
+    margin-bottom: 70px;
+    
+}
+#navigatiebar{
+    background-color: transparent;
+    z-index: +1;
+}
+.navbar-brand{
+    font-size: 80px;
+}
+#navbarSupportedContent{
+    justify-content: end;
+}
+.square {
+	width: 900px;
+	height: 500px;
+	transform: skew(40deg);
+	background: #26627170;
+    position:absolute;
+    top: 0px;
+    left: -210px;
+    
+    
+}
+.square2 {
+	width: 200px;
+	height: 170px;
+	background: #c1785478;
+    position:absolute;
+    top: 400px;
+    left: 1000px;
+  
+}
+#tekstblokje{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: +1;
+}
+#headertekst{
+    color: #ba500d;
+    position: absolute;  
+    top: 300px; 
+    z-index: +1;
+}
+#knop{
+    position: absolute;
+    top: 400px;
+    z-index: +1;
+}
+a{
+    text-decoration: none;
+    color:#a1a1a1;
+}
+#activiteiten{
+    padding-top: 60px;
+}
+.plaatje{
+    display: cover;
+    height: 300px;
+    width: 400px;
+    max-width: 100%;
+    padding: 10px;
+}
+#header2{
+    background-image: url("https://images.pexels.com/photos/27143631/pexels-photo-27143631/free-photo-of-zee-zwart-en-wit-zwart-wit-landschap.jpeg");
+    background-size: cover;
+    background-position: 50% 60%;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+.tekstheader2{
+    color: #ffffff;
+    position:relative;
+    z-index: 4;
+    
+    
+}
+.square4{
+    background: #226571;
+    
+    
+}
+.square3 {
+	width: 300px;
+	height: 500px;
+	transform: skew(-20deg);
+	background: #226571;
+    position:relative;
+    bottom: 350px;
+    left: 700px;
+    z-index: 3;
+   
+}
+#titelding{
+    text-align: center;
+}
+#LOGOS{
+    text-align: center;
+    font-size: 50PX;
+    padding: 20px;
+}
+#header3{
+    padding: 10px;
+}
+footer{
+    background-color: #226571;
+    height:300px;
+    padding: 40px;
+}
+#footertekst{
+    color:#ffffff;
+    text-align: center;
+}
+   
+.text-content {
+    max-width: 800px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#paralellogram {
+    height: 100%;
+    width: 218px;
+    background: #226571;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: skew(-13deg) translateX(60%);
+    z-index: -1;
+  }
+  #container-links{
+    position: relative;
+  }
+  #knop-inschrijven{
+    background-color:#f5c2b0;
+    color: black;
+  }
+  #onderstebanner{
+    background-color: #f5c2b0;
+  }
+  
+
+
+
+
+
+
+@media(max-width: 767px){
+    .square2{
+        position: static;
+        z-index: +1;
+        
+    }
+    footer{
+        height: 500px;
+    }
+    .square {
+        display:none;
+    }
+    #tekstblokje{
+        position: static;
+    }
+}
+@media(max-width: 991px){
+    .square2{
+        position: static;
+        z-index: +1;   
+    }
+    #tekstblokje{
+        position: static;
+    }       
+        
+}
+    
+@media(max-width: 1199px){
+    
+}
